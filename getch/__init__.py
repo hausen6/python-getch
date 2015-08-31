@@ -3,4 +3,5 @@
 try:
     from msvc import *
 except (ImportError):
-    from getch import *
+    from getch import (atexit, set_normal_term, set_curses_term,
+        putch, getch, getche, kbhit)
