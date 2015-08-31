@@ -7,5 +7,5 @@ setup(name="getch",
       version="0.0.1",
       description="For unix getch",
       author="hausen6",
-      py_modules=["getch/getch"],
+      packages=["getch"],
       )
